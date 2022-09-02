@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dfdb31b-3b48-45e8-aaec-7e6675d388e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArmstrongNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactorNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactorialNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FibonacciNthTerm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FibonacciSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PowerOfNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9dfdb31b-3b48-45e8-aaec-7e6675d388e9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
