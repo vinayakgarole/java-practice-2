@@ -3,35 +3,30 @@ import java.util.Scanner;
 public class ArmStrongNumberGiven {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter lower and upper ranges: ");
-        int low = sc.nextInt();
-        int high = sc.nextInt();
-
-        System.out.println("Armstrong numbers between "+ low + " and " + high + " are : ");
-
-        for(int num = low ; num <= high ; num++) {
-            int len = getOrder(num);
-
-            if(num == getArmstrongSum(num, len))
-                System.out.print(num + " ");
+        System.out.println("Enter the starting number: ");
+        int num1 = sc.nextInt();
+        System.out.println("Enter the ending number: ");
+        int num2 = sc.nextInt();
+        for (int i = num1; i <= num2; i++) {
+            int a = i;
+            int b = a, c = a;
+            int length = 0, rem, arm = 0;
+            while (a != 0) {
+                length += 1;
+                a = a / 10;
+            }
+            while (b != 0) {
+                rem = b % 10;
+                int multi = 1;
+                for (int j = 0; j < length; j++) {
+                    multi *= rem;
+                }
+                arm += multi;
+                b = b / 10;
+            }
+            if (c == arm) {
+                System.out.println(i + " is an armstrong number.");
+            }
         }
-
-    }
-
-    private static int getOrder(int num) {
-        int len = 0;
-        while (num!=0) {
-            len++;
-            num = num/10;
-        }
-        return len;
-    }
-    private static int getArmstrongSum(int num, int order) {
-        if(num == 0)
-            return 0;
-
-        int digit = num % 10;
-
-        return (int) Math.pow(digit, order) + getArmstrongSum(num/10, order);
     }
 }

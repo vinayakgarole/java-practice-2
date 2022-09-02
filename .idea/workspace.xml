@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dfdb31b-3b48-45e8-aaec-7e6675d388e9" name="Changes" comment="" />
+    <list default="true" id="9dfdb31b-3b48-45e8-aaec-7e6675d388e9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArmStrongNumberGiven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArmStrongNumberGiven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactorNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactorialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactorialNumber.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +22,6 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
@@ -47,22 +51,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArmstrongNumber" />
+      <module name="java-practice-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FactorialNumber" />
-      <module name="java-practice-2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactorsNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactorsNumber" />
-      <module name="java-practice-2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciNthTerm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FibonacciNthTerm" />
       <module name="java-practice-2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,12 +72,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumOfDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumOfDigit" />
+      <module name="java-practice-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ArmStrongNumberGiven" />
         <item itemvalue="Application.FactorialNumber" />
-        <item itemvalue="Application.FactorsNumber" />
-        <item itemvalue="Application.FibonacciNthTerm" />
+        <item itemvalue="Application.ArmstrongNumber" />
+        <item itemvalue="Application.SumOfDigit" />
         <item itemvalue="Application.PowerOfNumber" />
       </list>
     </recent_temporary>
